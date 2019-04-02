@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:onClick="inputAction"
+        android:layout_marginTop="180dp"
+        android:layout_marginLeft="130dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="input data"
+        android:id="@+id/input"
+        tools:ignore="OnClick" />
+
+    <Button
+        android:onClick="lihatAction"
+        android:layout_marginLeft="130dp"
+        android:layout_below="@+id/input"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="lihat data"
+        android:id="@+id/lihat"
+        tools:ignore="OnClick" />
+
+    <Button
+        android:onClick="exitAction"
+        android:layout_marginLeft="130dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="     keluar   "
+        android:id="@+id/exit"
+        android:layout_below="@+id/lihat"
+        tools:ignore="OnClick" />
+
+</RelativeLayout>
